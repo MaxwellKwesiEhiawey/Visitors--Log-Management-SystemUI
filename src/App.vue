@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Amalitech"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
@@ -18,11 +17,12 @@ export default {
 
 <style>
 #app {
+  background-color: rgb(252, 203, 207);
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #c51717;
+  margin-top: 10px;
 }
 </style>
