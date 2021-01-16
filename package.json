@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "signinmanager",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-particle-effect-buttons": "^1.0.4"
+    "vue-particle-effect-buttons": "^1.0.4",
+    "vue-typical": "^1.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
