@@ -8,21 +8,25 @@
   <div class="conatiner home-conatiner">
     <app-file-loader />
   </div>
+  <app-footer/>
 </div>
+
 </div>
 
 </template>
 
 <script>
-import Navibar from './components/Navibar.vue';
+import Navibar from './components/Navibar';
 import Details from './components/Details.vue';
 import FileLoader from './components/PageLoader';
+import Footer from './components/Footer.vue';
 export default {
   name: 'Home',
   components: {
     Details,
     'app-navibar': Navibar,
     'app-file-loader': FileLoader,
+    'app-footer': Footer,
   }
 }
 </script>

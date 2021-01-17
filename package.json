@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-gifplayer": "^1.0.2",
     "vue-particle-effect-buttons": "^1.0.4",
     "vue-typical": "^1.4.0"
   },

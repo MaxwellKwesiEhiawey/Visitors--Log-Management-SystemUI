@@ -9,9 +9,12 @@
     
  <h3 class="header">Please Select and Input as Applied </h3>
     <div class="button">
-    <button class="btn">Staff Sign In</button>
-    <button class="btn">Guest Sign In</button>
-    <button class="btn">Sign Out</button>
+      <router-link >
+ <button class="btn">Staff Sign In</button>
+      </router-link>
+   <router-link ><button class="btn">Guest Sign In</button></router-link>
+    <router-link ><button class="btn">Sign Out</button></router-link>
+    
     </div>
     <ul>
       <!-- <input v-model="message" placeholder="Name">
@@ -35,6 +38,7 @@
   :loop="3"
   :wrapper="'h3'"
 ></typical>
+
     <!-- <img src="src\assets\handwash.gif" alt /> -->
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
@@ -96,9 +100,9 @@ a {
   border: 2.5px solid  #690009;;
   color:  #a7082f;
   background: rgb(245, 213, 176);
-  border-radius: 25px;
+  border-radius: 40px 5px; 
   cursor: pointer;
-  overflow: hidden;
+  outline: none; 
 }
 
 .btn:hover,
