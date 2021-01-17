@@ -47,6 +47,11 @@
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
       <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
     </ul>
+    <div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="timer">{{ time }}</p>
+    <p class="text">DIGITAL CLOCK with Vue.js</p>
+</div>
     <h3>Ecosystem</h3>
     <ul>
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
@@ -70,6 +75,43 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+html,body {
+    height: 100%;
+}
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);}
+    .timer {
+        letter-spacing: 0.05em;
+        font-size: 80px;
+        padding: 5px 0;
+    }
+    .date {
+        letter-spacing: 0.1em;
+        font-size: 24px;
+    }
+    .text {
+        letter-spacing: 0.1em;
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+
 
 h3 {
   margin: 20px 0 0;
@@ -140,7 +182,7 @@ a {
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 2s linear infinite;
-  -webkit-background-clip: text;
+  -webkit-background-clip:text;
   -webkit-text-fill-color: rgba(197, 48, 73, 0);
 }
 

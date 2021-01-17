@@ -34,7 +34,7 @@ export default {
 <style>
 #app {
   display: inline-block;
-  background-color:#fdabab;
+  background-color:#f7e2e2;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
